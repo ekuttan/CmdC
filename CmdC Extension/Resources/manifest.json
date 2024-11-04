@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Copy Current URL",
+    "version": "1.0",
+    "description": "Copy current page URL with Command+Shift+C",
+    "permissions": [
+        "clipboardWrite",
+        "activeTab",
+        "notifications",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "commands": {
+        "copy-url": {
+            "suggested_key": {
+                "default": "Command+Shift+C"
+            },
+            "description": "Copy current page URL"
+        }
+    }
+}
