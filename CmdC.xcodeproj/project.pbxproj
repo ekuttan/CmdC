@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4A2A1CE62CD5732400A14274 /* CmdC Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4A2A1CCD2CD5732400A14274 /* CmdC Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4A2A1CED2CD5735D00A14274 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A1CEC2CD5735300A14274 /* Info.plist */; };
+		4A42EECD2CD8E2D100EA54A8 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A42EECC2CD8E2B900EA54A8 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		4A2A1CB62CD572EC00A14274 /* CmdCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CmdCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2A1CCD2CD5732400A14274 /* CmdC Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CmdC Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2A1CEC2CD5735300A14274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4A42EECC2CD8E2B900EA54A8 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -132,6 +134,7 @@
 		4A2A1C922CD572EA00A14274 = {
 			isa = PBXGroup;
 			children = (
+				4A42EECC2CD8E2B900EA54A8 /* Readme.md */,
 				4A2A1C9D2CD572EA00A14274 /* CmdC */,
 				4A2A1CAF2CD572EC00A14274 /* CmdCTests */,
 				4A2A1CB92CD572EC00A14274 /* CmdCUITests */,
@@ -300,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A42EECD2CD8E2D100EA54A8 /* Readme.md in Resources */,
 				4A2A1CED2CD5735D00A14274 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
