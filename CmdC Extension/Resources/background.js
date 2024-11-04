@@ -42,7 +42,7 @@ browser.commands.onCommand.addListener((command) => {
                 // Inject and execute the toast function in the active tab
                 browser.tabs.executeScript(tabs[0].id, script).then(() => {
                     browser.tabs.executeScript(tabs[0].id, {
-                        code: `(${showToast.toString()})("Eda mone! Link kittytto.")`
+                        code: `(${showToast.toString()})("Link has been copied.")`
                     });
                 });
                 
