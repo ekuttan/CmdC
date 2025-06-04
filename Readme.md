@@ -29,3 +29,10 @@ Default keyboard shortcut: Command+Shift+C
 1. Install the extension
 2. Use Command+Shift+C to copy the current page URL
 3. URL will be copied to clipboard with a confirmation notification
+
+## CmdC macOS App
+The clipboard history is stored by the CmdC menu bar application.
+
+1. Open the project in Xcode and select the **CmdC** target.
+2. Run or build the app. When it launches, a menu bar icon ("doc.on.clipboard") confirms it is running.
+3. The Safari extension remains separate and can be enabled from Safari's preferences.
