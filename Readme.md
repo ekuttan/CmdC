@@ -2,6 +2,7 @@
 
 A simple Safari extension that allows you to quickly copy the current page URL using a keyboard shortcut. I was using Arc for last few months and got addicted to the Command Shift C for copying url, so I build the same on Safari while I moved back.
 
+This repository includes a Swift Package manifest so the app can be built using Swift Package Manager.
 ## Features
 
 - Copy current page URL with Command+Shift+C keyboard shortcut
@@ -30,4 +31,4 @@ Default keyboard shortcut: Command+Shift+C
 1. Install the extension
 2. Use Command+Shift+C to copy the current page URL
 3. URL will be copied to clipboard with a confirmation notification
-4. Access clipboard history from the CmdC menu bar icon
+
