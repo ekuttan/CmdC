@@ -30,6 +30,3 @@ Default keyboard shortcut: Command+Shift+C
 1. Install the extension
 2. Use Command+Shift+C to copy the current page URL
 3. URL will be copied to clipboard with a confirmation notification
-
-## Building with Swift Package Manager
-If you prefer to use Swift Package Manager, simply run `swift build` in the repository root. The package manifest describes the macOS app target and test suites.
