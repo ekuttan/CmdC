@@ -8,6 +8,7 @@ This repository includes a Swift Package manifest so the app can be built using 
 - Copy current page URL with Command+Shift+C keyboard shortcut
 - Shows notification when URL is copied
 - Works on all websites
+- **New:** macOS menu bar clipboard manager shows last 10 copied items and lets you copy them again or clear the history
 
 ## Technical Details
 
@@ -30,3 +31,4 @@ Default keyboard shortcut: Command+Shift+C
 1. Install the extension
 2. Use Command+Shift+C to copy the current page URL
 3. URL will be copied to clipboard with a confirmation notification
+
